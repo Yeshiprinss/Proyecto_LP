@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.container{
+    display: grid;
+    grid-template-areas: "parte1 parte2 parte3";
+    gap: 10%;
+}
+
+.parte1{
+    grid-area: parte1;
+}
+
+.marketing{
+    border: 1px solid;
+    padding: 2rem;
+    box-shadow: 2px 1px;
+    background-color: rgba(44, 44, 193, 0.3);
+}
+
+.parte2{
+    grid-area: parte2;
+}   
+
+.parte3{
+    grid-area: parte3;
+}
